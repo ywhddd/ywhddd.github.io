@@ -32,7 +32,7 @@
 #you{
 	width:190px;
 	height:200px;
-	margin-left:10px;
+	
 	margin-top:10px;
 	float:left;
 	background-color:#3FF;
@@ -47,7 +47,25 @@
 	}
 
 
-
+}
+#apDiv1 {
+	position: absolute;
+	width: 480px;
+	height: 88px;
+	z-index: 1;
+	left: 9px;
+	top: 426px;
+	background-color: #909;
+}
+#apDiv2 {
+	position: absolute;
+	width: 480px;
+	height: 90px;
+	z-index: 2;
+	left: 10px;
+	top: 525px;
+	background-color: #F00;
+}
 </style>
 </head>
 
@@ -56,12 +74,10 @@
 <div class="you" id="you">样式统计</div>
 <div class="mainsupport" id="mainsupport">日历</div>
   
-  <div class="zhong" id="zhong">博客推荐</div>
-
-
-
-
-
-<div class="xia" id="xia">底部</div>
+<div class="zhong" id="zhong">博客推荐</div>
+<div class="xia" id="xia">底部
+  <div id="apDiv1">博客搜索</div>
+  <div id="apDiv2">推荐</div>
+</div>
 </body>
 </html>
