@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+
+#banner{
+    width:800px;
+	height:200px;
+	text-align:left;
+	background-color:#FFC;
+	}
+#mainsupport{
+	width:290px;
+	height:200px;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#CC0;
+	}
+
+#zhong{
+	width:290px;
+	height:400px;
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#96C;
+}
+#you{
+	width:190px;
+	height:200px;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	background-color:#3FF;
+}
+#xia{
+	width: 800px;
+	height: 100px;
+	margin-top: 0px;
+	clear: both;
+	color: #9CF;
+	background-color:#399;	
+	}
+#bottom{
+	width:800px;
+	height:100px;
+	margin-top:10px;
+	clear:both;
+	background-color:#036;
+	}
+#xiaoyou{
+	float:right;
+	width:180px;
+	height:100px;
+	margin-top:0px;
+	background-color:#090;
+	}
+
+}
+</style>
+</head>
+
+<body>
+<div class="banner" id="banner"> <p>banner</p></div>
+<div class="you" id="you">样式统计</div>
+<div class="mainsupport" id="mainsupport">日历</div>
+  
+  <div class="zhong" id="zhong">博客推荐</div>
+</div>
+
+
+
+
+<div class="xia" id="xia">底部</div>
+</body>
+</html>
